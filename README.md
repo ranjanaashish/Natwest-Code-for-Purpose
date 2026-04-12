@@ -324,14 +324,14 @@ mtp_chatbot3/
 
 ### Planned Improvements
 
-- [ ] **Better Forecasting** — integrate seasonal decomposition (STL) and Prophet
-- [ ] **ML Anomaly Detection** — Isolation Forest, One-Class SVM, LSTM autoencoders
-- [ ] **Multi-turn Conversation Memory** — context-aware follow-up questions
-- [ ] **Export & Reporting** — PDF/Excel report generation from chat results
-- [ ] **User Authentication** — Streamlit-Authenticator or OAuth integration
-- [ ] **Streaming LLM Responses** — token-by-token render for better UX
-- [ ] **Vector Store for KG** — embed column descriptions for semantic similarity search
-- [ ] **Advanced Dataset Integration** — use of Relational Algebra
+- [ ] **Better Forecasting** - integrate seasonal decomposition (STL) and Prophet
+- [ ] **ML Anomaly Detection** - Isolation Forest, One-Class SVM, LSTM autoencoders
+- [ ] **Multi-turn Conversation Memory** - context-aware follow-up questions
+- [ ] **Export & Reporting** - PDF/Excel report generation from chat results
+- [ ] **User Authentication** - Streamlit-Authenticator or OAuth integration
+- [ ] **Streaming LLM Responses** - token-by-token render for better UX
+- [ ] **Vector Store for KG** - embed column descriptions for semantic similarity search
+- [ ] **Advanced Dataset Integration** - use of Relational Algebra
 
 ---
 
