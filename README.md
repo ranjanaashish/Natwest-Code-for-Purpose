@@ -106,38 +106,38 @@ Traditional BI tools require SQL expertise or fixed dashboards. When a business 
 
 ```
 ┌─────────────────────────────────────────────────────────────────────┐
-│                         Streamlit UI (main.py)                       │
-│  Chat · Forecasting · Anomaly · Metrics · Knowledge Graph · Explorer │
+│                         Streamlit UI (main.py)                      │
+│  Chat · Forecasting · Anomaly · Metrics · Knowledge Graph · Explorer│
 └───────────────┬──────────────────────────────┬──────────────────────┘
                 │                              │
    ┌────────────▼───────────┐    ┌─────────────▼─────────────────┐
-   │   Intent Router        │    │    Response Planner            │
-   │   (NLP + regex rules)  │    │    (plan → render pipeline)    │
+   │   Intent Router        │    │    Response Planner           │
+   │   (NLP + regex rules)  │    │    (plan → render pipeline)   │
    └────────────┬───────────┘    └─────────────┬─────────────────┘
                 │                              │
    ┌────────────▼──────────────────────────────▼───────────────────┐
-   │                     Engine Layer                               │
-   │                                                                │
-   │  ┌──────────────┐  ┌───────────────┐  ┌──────────────────┐   │
-   │  │ Tabular Query│  │  Forecasting  │  │ Anomaly Detection│   │
-   │  │   Engine     │  │    Engine     │  │    Engine        │   │
-   │  └──────────────┘  └───────────────┘  └──────────────────┘   │
-   │                                                                │
-   │  ┌──────────────┐  ┌───────────────┐  ┌──────────────────┐   │
-   │  │  Scenario    │  │  LLM Engine   │  │  Result          │   │
-   │  │  Engine      │  │ (OpenRouter)  │  │  Validator       │   │
-   │  └──────────────┘  └───────────────┘  └──────────────────┘   │
+   │                     Engine Layer                              │
+   │                                                               │
+   │  ┌──────────────┐  ┌───────────────┐  ┌──────────────────┐    │
+   │  │ Tabular Query│  │  Forecasting  │  │ Anomaly Detection│    │
+   │  │   Engine     │  │    Engine     │  │    Engine        │    │
+   │  └──────────────┘  └───────────────┘  └──────────────────┘    │
+   │                                                               │
+   │  ┌──────────────┐  ┌───────────────┐  ┌──────────────────┐    │
+   │  │  Scenario    │  │  LLM Engine   │  │  Result          │    │
+   │  │  Engine      │  │ (OpenRouter)  │  │  Validator       │    │
+   │  └──────────────┘  └───────────────┘  └──────────────────┘    │
    └─────────────────────────────────────┬─────────────────────────┘
                                          │
    ┌─────────────────┐    ┌──────────────▼──────────────────────┐
-   │  Data Access    │    │   Knowledge Graph Engine             │
-   │  Engine         │    │   (NetworkX · disk-cached)           │
+   │  Data Access    │    │   Knowledge Graph Engine            │
+   │  Engine         │    │   (NetworkX · disk-cached)          │
    │  (File/URL/DB)  │    └─────────────────────────────────────┘
    └────────┬────────┘
             │
    ┌────────▼─────────────────────────────────────────┐
-   │        Data Integration Engine                    │
-   │  Preprocess → Schema → Merge → Master DataFrame   │
+   │        Data Integration Engine                   │
+   │  Preprocess → Schema → Merge → Master DataFrame  │
    └──────────────────────────────────────────────────┘
 ```
 
@@ -324,13 +324,14 @@ mtp_chatbot3/
 
 ### Planned Improvements
 
-- [ ] **Advanced Forecasting** — integrate seasonal decomposition (STL) and Prophet
+- [ ] **Better Forecasting** — integrate seasonal decomposition (STL) and Prophet
 - [ ] **ML Anomaly Detection** — Isolation Forest, One-Class SVM, LSTM autoencoders
 - [ ] **Multi-turn Conversation Memory** — context-aware follow-up questions
 - [ ] **Export & Reporting** — PDF/Excel report generation from chat results
 - [ ] **User Authentication** — Streamlit-Authenticator or OAuth integration
 - [ ] **Streaming LLM Responses** — token-by-token render for better UX
 - [ ] **Vector Store for KG** — embed column descriptions for semantic similarity search
+- [ ] **Advanced Dataset Integration** — use of Relational Algebra
 
 ---
 
