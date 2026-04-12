@@ -10,7 +10,7 @@
 [![NetworkX](https://img.shields.io/badge/Graph-NetworkX-orange)](https://networkx.org/)
 
 *Conversational, graph-grounded AI that turns raw CSV/JSON data into instant predictions,  
-anomaly alerts, what-if scenarios, and natural-language insights — no SQL or code required.*
+anomaly alerts, what-if scenarios, and natural-language insights.*
 
 </div>
 
