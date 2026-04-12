@@ -342,6 +342,6 @@ This project is licensed under the **Apache License 2.0** — see the [LICENSE](
 
 <div align="center">
 
-Made with ❤️ for the hackathon · **GraphIntel** · Graph-Aware Intelligence
+**GraphIntel** · Graph-Aware Intelligence
 
 </div>
