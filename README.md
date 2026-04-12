@@ -12,6 +12,8 @@
 *Conversational, graph-grounded AI that turns raw CSV/JSON data into instant predictions,  
 anomaly alerts, what-if scenarios, and natural-language insights — no SQL or code required.*
 
+![GraphIntel Home](docs/screenshots/01_home.png)
+
 </div>
 
 ---
@@ -19,6 +21,7 @@ anomaly alerts, what-if scenarios, and natural-language insights — no SQL or c
 ## 📋 Table of Contents
 
 - [Overview](#-overview)
+- [Screenshots](#-screenshots)
 - [Features](#-features)
 - [Architecture](#-architecture)
 - [Tech Stack](#-tech-stack)
@@ -54,6 +57,37 @@ Traditional BI tools require SQL expertise or fixed dashboards. When a business 
 
 ---
 
+## 📸 Screenshots
+
+<table>
+  <tr>
+    <td align="center"><b>💬 Conversational AI Chat</b></td>
+    <td align="center"><b>💬 Single-result Query</b></td>
+  </tr>
+  <tr>
+    <td><img src="docs/screenshots/02_chat_top5.png" alt="Chat – Top 5 Sellers" width="100%"/></td>
+    <td><img src="docs/screenshots/03_chat_highest.png" alt="Chat – Highest Revenue Seller" width="100%"/></td>
+  </tr>
+  <tr>
+    <td align="center"><b>📈 Forecasting Engine</b></td>
+    <td align="center"><b>🕸️ Knowledge Graph</b></td>
+  </tr>
+  <tr>
+    <td><img src="docs/screenshots/04_forecasting.png" alt="Forecasting Engine" width="100%"/></td>
+    <td><img src="docs/screenshots/05_knowledge_graph.png" alt="Knowledge Graph" width="100%"/></td>
+  </tr>
+  <tr>
+    <td align="center"><b>🗄️ Data Explorer</b></td>
+    <td align="center"><b>📋 Column Schema</b></td>
+  </tr>
+  <tr>
+    <td><img src="docs/screenshots/06_data_explorer.png" alt="Data Explorer" width="100%"/></td>
+    <td><img src="docs/screenshots/07_column_schema.png" alt="Column Schema" width="100%"/></td>
+  </tr>
+</table>
+
+---
+
 ## ✅ Features
 
 > **Only implemented and working features are listed below.**
@@ -64,11 +98,15 @@ Traditional BI tools require SQL expertise or fixed dashboards. When a business 
 - Fallback rule-based engine when no API key is provided
 - **Suggested starter queries** on first launch for instant exploration
 
+![Chat Query](docs/screenshots/02_chat_top5.png)
+
 ### 📈 2. Time-Series Forecasting
 - Polynomial ridge regression with automated date-column and value-column detection
 - Configurable forecast horizon (1–52 periods), interactive parameter panel
 - Displays: forecast line chart, confidence bands, residual chart, and tabular output
 - Accuracy metrics: MAE, RMSE, MAPE, R², Directional Accuracy, Model vs Baseline comparison
+
+![Forecasting Engine](docs/screenshots/04_forecasting.png)
 
 ### 🔍 3. Statistical Anomaly Detection
 - Z-Score and IQR methods with a tunable threshold slider
@@ -86,6 +124,8 @@ Traditional BI tools require SQL expertise or fixed dashboards. When a business 
 - Interactive Plotly force-directed visualisation with node-type colouring
 - Persistent disk cache (content-hash-invalidated) for fast re-loads
 
+![Knowledge Graph](docs/screenshots/05_knowledge_graph.png)
+
 ### 🗄️ 6. Universal Data Access
 - **File Upload**: CSV and JSON (multiple files, auto-merged on common keys)
 - **Cloud/API URL**: Fetch remote CSVs or JSON directly by URL
@@ -99,6 +139,9 @@ Traditional BI tools require SQL expertise or fixed dashboards. When a business 
 ### 🗺️ 8. Data Explorer
 - Dataset preview (first 200 rows), column schema table, numeric summary statistics
 - Join metadata display when multiple files are merged
+
+![Data Explorer](docs/screenshots/06_data_explorer.png)
+![Column Schema](docs/screenshots/07_column_schema.png)
 
 ---
 
@@ -192,8 +235,8 @@ Traditional BI tools require SQL expertise or fixed dashboards. When a business 
 ### Step 1 — Clone the Repository
 
 ```bash
-git clone https://github.com/<your-username>/mtp_chatbot3.git
-cd mtp_chatbot3
+git clone https://github.com/ranjanaashish/Natwest-Code-for-Purpose.git
+cd Natwest-Code-for-Purpose
 ```
 
 ### Step 2 — Create a Virtual Environment
@@ -238,6 +281,8 @@ The app will open automatically at `http://localhost:8501`.
 
 ### Quick Start (no API key needed)
 
+![GraphIntel Home](docs/screenshots/01_home.png)
+
 1. Launch the app (`streamlit run main.py`)
 2. Click **"📂 Load Sample Data"** in the sidebar to load the built-in demo dataset
 3. Click any suggestion card (e.g. *"Show top 10 products by revenue"*)
@@ -259,6 +304,8 @@ To unlock **LLM-powered explanations**, enter your OpenRouter API key in the sid
 "What if sales increase by 20%?"
 "What columns does the dataset have?"
 ```
+
+![Chat Example](docs/screenshots/03_chat_highest.png)
 
 ### Database Tab (SQLAlchemy)
 
@@ -301,6 +348,9 @@ mtp_chatbot3/
 │   ├── components.py         # Plotly charts, metric cards, table renderers
 │   └── styles.css            # Custom dark-mode CSS theme
 │
+├── docs/
+│   └── screenshots/          # App screenshots used in README
+│
 ├── requirements.txt          # Python dependencies with version pins
 ├── .env.example              # Environment variable template (no real secrets)
 ├── .gitignore                # Files excluded from version control
@@ -331,6 +381,7 @@ mtp_chatbot3/
 - [ ] **User Authentication** — Streamlit-Authenticator or OAuth integration
 - [ ] **Streaming LLM Responses** — token-by-token render for better UX
 - [ ] **Vector Store for KG** — embed column descriptions for semantic similarity search
+- [ ] **Advanced Dataset Integration** — use of Relational Algebra
 
 ---
 
