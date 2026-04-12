@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🧠 GraphIntel
+#  GraphIntel
 ### Graph-Aware AI Analytics Chatbot
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white)](https://www.python.org/)
@@ -10,7 +10,7 @@
 [![NetworkX](https://img.shields.io/badge/Graph-NetworkX-orange)](https://networkx.org/)
 
 *Conversational, graph-grounded AI that turns raw CSV/JSON data into instant predictions,  
-anomaly alerts, what-if scenarios, and natural-language insights — no SQL or code required.*
+anomaly alerts, what-if scenarios, and natural-language insights.*
 
 ![GraphIntel Home](docs/screenshots/01_home.png)
 
@@ -18,7 +18,7 @@ anomaly alerts, what-if scenarios, and natural-language insights — no SQL or c
 
 ---
 
-## 📋 Table of Contents
+##  Table of Contents
 
 - [Overview](#-overview)
 - [Screenshots](#-screenshots)
@@ -32,7 +32,7 @@ anomaly alerts, what-if scenarios, and natural-language insights — no SQL or c
 
 ---
 
-## 🌟 Overview
+##  Overview
 
 **GraphIntel** is a self-service business intelligence chatbot that combines a **Knowledge Graph** with an **LLM reasoning layer** to answer complex analytical questions about any uploaded dataset — with zero SQL or coding required from the user.
 
@@ -50,35 +50,35 @@ Traditional BI tools require SQL expertise or fixed dashboards. When a business 
 
 | User | Use Case |
 |------|----------|
-| 📈 Business Analysts | Query sales data, spot outliers, run scenarios |
-| 🛒 E-commerce Teams | Identify top sellers, forecast revenue, detect fraud signals |
-| 📊 Data Scientists | Rapid EDA, automated anomaly detection, ML forecast baselines |
-| 🏢 Non-technical Managers | Ask questions in plain English, get chart-backed answers |
+|  Business Analysts | Query sales data, spot outliers, run scenarios |
+|  E-commerce Teams | Identify top sellers, forecast revenue, detect fraud signals |
+|  Data Scientists | Rapid EDA, automated anomaly detection, ML forecast baselines |
+|  Non-technical Managers | Ask questions in plain English, get chart-backed answers |
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
 <table>
   <tr>
-    <td align="center"><b>💬 Conversational AI Chat</b></td>
-    <td align="center"><b>💬 Single-result Query</b></td>
+    <td align="center"><b> Conversational AI Chat</b></td>
+    <td align="center"><b> Single-result Query</b></td>
   </tr>
   <tr>
     <td><img src="docs/screenshots/02_chat_top5.png" alt="Chat – Top 5 Sellers" width="100%"/></td>
     <td><img src="docs/screenshots/03_chat_highest.png" alt="Chat – Highest Revenue Seller" width="100%"/></td>
   </tr>
   <tr>
-    <td align="center"><b>📈 Forecasting Engine</b></td>
-    <td align="center"><b>🕸️ Knowledge Graph</b></td>
+    <td align="center"><b> Forecasting Engine</b></td>
+    <td align="center"><b> Knowledge Graph</b></td>
   </tr>
   <tr>
     <td><img src="docs/screenshots/04_forecasting.png" alt="Forecasting Engine" width="100%"/></td>
     <td><img src="docs/screenshots/05_knowledge_graph.png" alt="Knowledge Graph" width="100%"/></td>
   </tr>
   <tr>
-    <td align="center"><b>🗄️ Data Explorer</b></td>
-    <td align="center"><b>📋 Column Schema</b></td>
+    <td align="center"><b> Data Explorer</b></td>
+    <td align="center"><b> Column Schema</b></td>
   </tr>
   <tr>
     <td><img src="docs/screenshots/06_data_explorer.png" alt="Data Explorer" width="100%"/></td>
@@ -88,11 +88,11 @@ Traditional BI tools require SQL expertise or fixed dashboards. When a business 
 
 ---
 
-## ✅ Features
+##  Features
 
 > **Only implemented and working features are listed below.**
 
-### 💬 1. Conversational AI Chat
+###  1. Conversational AI Chat
 - Natural language Q&A over any uploaded CSV or JSON file
 - LLM-generated Pandas code executed directly on the full dataset for accurate, deterministic answers
 - Fallback rule-based engine when no API key is provided
@@ -100,7 +100,7 @@ Traditional BI tools require SQL expertise or fixed dashboards. When a business 
 
 ![Chat Query](docs/screenshots/02_chat_top5.png)
 
-### 📈 2. Time-Series Forecasting
+###  2. Time-Series Forecasting
 - Polynomial ridge regression with automated date-column and value-column detection
 - Configurable forecast horizon (1–52 periods), interactive parameter panel
 - Displays: forecast line chart, confidence bands, residual chart, and tabular output
@@ -108,17 +108,17 @@ Traditional BI tools require SQL expertise or fixed dashboards. When a business 
 
 ![Forecasting Engine](docs/screenshots/04_forecasting.png)
 
-### 🔍 3. Statistical Anomaly Detection
+###  3. Statistical Anomaly Detection
 - Z-Score and IQR methods with a tunable threshold slider
 - Multi-column simultaneous analysis
 - Synthetic ground-truth validation (Precision, Recall, F1, False Positive Rate)
 - Per-column statistics, z-score timeline, anomaly distribution chart
 
-### 🤔 4. What-If / Scenario Analysis
+###  4. What-If / Scenario Analysis
 - Interprets natural language hypotheticals ("What if revenue increases by 15%?")
 - Applies assumptions to forecasting results and shows optimistic vs baseline delta
 
-### 🕸️ 5. Knowledge Graph Engine
+###  5. Knowledge Graph Engine
 - Auto-builds a directed semantic graph (datasets → columns → datatypes → join keys)
 - Graph-guided context retrieval improves column resolution for ambiguous queries
 - Interactive Plotly force-directed visualisation with node-type colouring
@@ -126,17 +126,17 @@ Traditional BI tools require SQL expertise or fixed dashboards. When a business 
 
 ![Knowledge Graph](docs/screenshots/05_knowledge_graph.png)
 
-### 🗄️ 6. Universal Data Access
+###  6. Universal Data Access
 - **File Upload**: CSV and JSON (multiple files, auto-merged on common keys)
 - **Cloud/API URL**: Fetch remote CSVs or JSON directly by URL
 - **Database**: Any SQLAlchemy connection string + raw SQL query
 
-### 📊 7. Metrics Dashboard
+###  7. Metrics Dashboard
 - Live quality tracking: schema grounding, numeric consistency, exact-match F1
 - Forecast and anomaly metrics automatically populated as you use other tabs
 - LLM narrative grounding rate (GAR)
 
-### 🗺️ 8. Data Explorer
+###  8. Data Explorer
 - Dataset preview (first 200 rows), column schema table, numeric summary statistics
 - Join metadata display when multiple files are merged
 
@@ -145,42 +145,42 @@ Traditional BI tools require SQL expertise or fixed dashboards. When a business 
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────────────────┐
-│                         Streamlit UI (main.py)                       │
-│  Chat · Forecasting · Anomaly · Metrics · Knowledge Graph · Explorer │
+│                         Streamlit UI (main.py)                      │
+│  Chat · Forecasting · Anomaly · Metrics · Knowledge Graph · Explorer│
 └───────────────┬──────────────────────────────┬──────────────────────┘
                 │                              │
    ┌────────────▼───────────┐    ┌─────────────▼─────────────────┐
-   │   Intent Router        │    │    Response Planner            │
-   │   (NLP + regex rules)  │    │    (plan → render pipeline)    │
+   │   Intent Router        │    │    Response Planner           │
+   │   (NLP + regex rules)  │    │    (plan → render pipeline)   │
    └────────────┬───────────┘    └─────────────┬─────────────────┘
                 │                              │
    ┌────────────▼──────────────────────────────▼───────────────────┐
-   │                     Engine Layer                               │
-   │                                                                │
-   │  ┌──────────────┐  ┌───────────────┐  ┌──────────────────┐   │
-   │  │ Tabular Query│  │  Forecasting  │  │ Anomaly Detection│   │
-   │  │   Engine     │  │    Engine     │  │    Engine        │   │
-   │  └──────────────┘  └───────────────┘  └──────────────────┘   │
-   │                                                                │
-   │  ┌──────────────┐  ┌───────────────┐  ┌──────────────────┐   │
-   │  │  Scenario    │  │  LLM Engine   │  │  Result          │   │
-   │  │  Engine      │  │ (OpenRouter)  │  │  Validator       │   │
-   │  └──────────────┘  └───────────────┘  └──────────────────┘   │
+   │                     Engine Layer                              │
+   │                                                               │
+   │  ┌──────────────┐  ┌───────────────┐  ┌──────────────────┐    │
+   │  │ Tabular Query│  │  Forecasting  │  │ Anomaly Detection│    │
+   │  │   Engine     │  │    Engine     │  │    Engine        │    │
+   │  └──────────────┘  └───────────────┘  └──────────────────┘    │
+   │                                                               │
+   │  ┌──────────────┐  ┌───────────────┐  ┌──────────────────┐    │
+   │  │  Scenario    │  │  LLM Engine   │  │  Result          │    │
+   │  │  Engine      │  │ (OpenRouter)  │  │  Validator       │    │
+   │  └──────────────┘  └───────────────┘  └──────────────────┘    │
    └─────────────────────────────────────┬─────────────────────────┘
                                          │
    ┌─────────────────┐    ┌──────────────▼──────────────────────┐
-   │  Data Access    │    │   Knowledge Graph Engine             │
-   │  Engine         │    │   (NetworkX · disk-cached)           │
+   │  Data Access    │    │   Knowledge Graph Engine            │
+   │  Engine         │    │   (NetworkX · disk-cached)          │
    │  (File/URL/DB)  │    └─────────────────────────────────────┘
    └────────┬────────┘
             │
    ┌────────▼─────────────────────────────────────────┐
-   │        Data Integration Engine                    │
-   │  Preprocess → Schema → Merge → Master DataFrame   │
+   │        Data Integration Engine                   │
+   │  Preprocess → Schema → Merge → Master DataFrame  │
    └──────────────────────────────────────────────────┘
 ```
 
@@ -222,7 +222,7 @@ Traditional BI tools require SQL expertise or fixed dashboards. When a business 
 
 ---
 
-## 🚀 Setup Instructions
+##  Setup Instructions
 
 ### Prerequisites
 
@@ -279,12 +279,12 @@ The app will open automatically at `http://localhost:8501`.
 
 ---
 
-### Quick Start (no API key needed)
+### Quick Start
 
 ![GraphIntel Home](docs/screenshots/01_home.png)
 
 1. Launch the app (`streamlit run main.py`)
-2. Click **"📂 Load Sample Data"** in the sidebar to load the built-in demo dataset
+2. Click **" Load Sample Data"** in the sidebar to load the built-in demo dataset
 3. Click any suggestion card (e.g. *"Show top 10 products by revenue"*)
 4. Switch tabs to explore **Forecasting**, **Anomaly Detection**, and the **Knowledge Graph**
 
@@ -292,7 +292,7 @@ To unlock **LLM-powered explanations**, enter your OpenRouter API key in the sid
 
 ---
 
-## 💡 Usage Examples
+##  Usage Examples
 
 ### Natural Language Queries
 
@@ -322,7 +322,7 @@ URL:  https://raw.githubusercontent.com/.../sales_data.csv
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 mtp_chatbot3/
@@ -359,7 +359,7 @@ mtp_chatbot3/
 
 ---
 
-## ⚠️ Limitations & Future Improvements
+##  Limitations & Future Improvements
 
 ### Current Limitations
 
@@ -374,25 +374,25 @@ mtp_chatbot3/
 
 ### Planned Improvements
 
-- [ ] **Advanced Forecasting** — integrate seasonal decomposition (STL) and Prophet
-- [ ] **ML Anomaly Detection** — Isolation Forest, One-Class SVM, LSTM autoencoders
-- [ ] **Multi-turn Conversation Memory** — context-aware follow-up questions
-- [ ] **Export & Reporting** — PDF/Excel report generation from chat results
-- [ ] **User Authentication** — Streamlit-Authenticator or OAuth integration
-- [ ] **Streaming LLM Responses** — token-by-token render for better UX
-- [ ] **Vector Store for KG** — embed column descriptions for semantic similarity search
-- [ ] **Advanced Dataset Integration** — use of Relational Algebra
+- [ ] **Advanced Forecasting** - integrate seasonal decomposition (STL) and Prophet
+- [ ] **ML Anomaly Detection** - Isolation Forest, One-Class SVM, LSTM autoencoders
+- [ ] **Multi-turn Conversation Memory** - context-aware follow-up questions
+- [ ] **Export & Reporting** - PDF/Excel report generation from chat results
+- [ ] **User Authentication** - Streamlit-Authenticator or OAuth integration
+- [ ] **Streaming LLM Responses** - token-by-token render for better UX
+- [ ] **Vector Store for KG** - embed column descriptions for semantic similarity search
+- [ ] **Advanced Dataset Integration** - use of Relational Algebra
 
 ---
 
-## 📄 License
+##  License
 
-This project is licensed under the **Apache License 2.0** — see the [LICENSE](LICENSE) file for details.
+This project is licensed under the **Apache License 2.0** - see the [LICENSE](LICENSE) file for details.
 
 ---
 
 <div align="center">
 
-Made with ❤️ for the hackathon · **GraphIntel** · Graph-Aware Intelligence
+**GraphIntel** · Graph-Aware Intelligence
 
 </div>
